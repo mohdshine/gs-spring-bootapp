@@ -62,7 +62,7 @@ stages:
           - task: AzureWebApp@1
             displayName: 'Azure Web App Deploy: shinelabjava'
             inputs:
-              azureSubscription: 'shine-lab(61ff743f-b913-4634-8b9a-200c86c1d4aa)'
+              azureSubscription: 'shine-lab'
 #labboxprojects-spring boot-61ff743f-b913-4634-8b9a-200c86c1d4aa
               appType: webAppLinux
               appName: $(webAppName)
